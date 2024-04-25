@@ -1,0 +1,4 @@
+server:
+  port: 18171
+  servlet:
+    context-path: /dataflow
