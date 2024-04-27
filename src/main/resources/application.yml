@@ -2,3 +2,19 @@ server:
   port: 18171
   servlet:
     context-path: /dataflow
+
+spring:
+  datasource:
+    primary:
+      jdbc-url: jdbc:mysql://127.0.0.1:3306/main
+      username: root
+      password: example
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    second:
+      jdbc-url: jdbc:clickhouse://127.0.0.1:8123
+      username: default
+      password:
+      driver-class-name: com.clickhouse.jdbc.ClickHouseDriver
+
+
+
